@@ -1,2 +1,2 @@
 # Project_Navigation
-Udacity nanodegree assignment on DQN
+Training agent to navigate task using DQN 
