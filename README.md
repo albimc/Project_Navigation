@@ -25,7 +25,42 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 ## Installation
 
-The software requires to insall Python (3.6.1 or higher)
+### Python Dependencies
+
+1. The software requires to insall Python (3.6.1 or higher). We advocate to create a new environment with Python 3.6
+     
+     * **Linux or Mac**:
+  
+    ```sh
+    conda create --name drlnd python=3.6
+    source activate drlnd
+    ```
+    
+    * **Windows**:
+  
+    ```sh
+    conda create --name drlnd python=3.6 
+    activate drlnd
+    ```
+
+2. Clone the repository, and navigate to the python/ folder. Then, install several dependencies.
+
+    ```sh
+        git clone https://github.com/udacity/deep-reinforcement-learning.git
+        cd deep-reinforcement-learning/python
+        pip install .
+    ```
+3. Create and activate IPython kernel for the drlnd environment.
+
+    ```sh
+    python -m ipykernel install --user --name drlnd --display-name "drlnd"
+    ```
+    
+    In the jupyter notebook instance the kernel is activated from the dropdown menu _Kernel_
+
+
+
+### Unity Packages and Environment
 
 Besides the Python ML library `PyTorch` you will need to install the Unity Packages and Environments plus the relevant Python Packages following the instructions in [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md)
 
